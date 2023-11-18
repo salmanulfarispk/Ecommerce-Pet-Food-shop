@@ -15,7 +15,7 @@ const Pictures = () => {
   return (
     <div>
         
-         <MDBRow className='row-cols-1 row-cols-md-3 g-4 mt-5'>
+         <MDBRow className='row-cols-1 row-cols-md-3 g-4 mt-1'>
       <MDBCol>
         <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
           <MDBCardImage 

@@ -66,7 +66,7 @@ const Dogfoods = () => {
                 <h5 className="text-dark mb-0">{item.price2}</h5>
               </div>
             </MDBCardBody>
-            <MDBBtn className='bg-danger'onClick={()=>{
+            <MDBBtn className='bg-primary'onClick={()=>{
                 navigate(`/viewproduct/${item.id}`)
            }}>
                 View Details

@@ -47,7 +47,7 @@ const Nav = () => {
 
   
      
-     <MDBNavbar   expand='lg' light bgColor='light'  style={{ height: '100px'}}>
+     <MDBNavbar   expand='lg' light bgColor='light'  style={{ height: '93px'}}>
 
       <MDBContainer fluid>
        

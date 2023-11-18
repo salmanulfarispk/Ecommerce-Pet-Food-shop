@@ -89,7 +89,7 @@ const Catfoods = () => {
                 </div>
               </div> */}
             </MDBCardBody>
-            <MDBBtn className='bg-danger' onClick={()=>{
+            <MDBBtn className='bg-primary' onClick={()=>{
                  navigate(`/viewproduct/${item.id}`)
             }}>
                 View Details

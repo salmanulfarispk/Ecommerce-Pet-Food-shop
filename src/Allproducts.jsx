@@ -20,9 +20,12 @@ const Allproducts = () => {
 
   return (
     <div>
-   <div>
+ <div>
     <Nav/>
-   </div>
+   
+   </div> 
+    
+   
    
 
 <MDBContainer fluid className="my-5">
