@@ -21,105 +21,76 @@ const Cards = () => {
      const navigate=useNavigate()
   return (
     <div>
-        
+         
+     
+          <h2 className='mt-5 ms-3' style={{ textAlign: 'center', color:'black' }}>
+        <strong>Recommended products</strong>
+      </h2>
 
-        <h2 className=' mt-5 ms-3'><strong>Recommended products</strong></h2>
+    
+  <br/>
+   
 
-      <MDBRow className=' row-cols-1 row-cols-md-3 g-3 mt-3'>
-      
-
-
-
-
-
+<MDBRow className='row-cols-1 row-cols-md-2 g-2 mt-4 ms-2 me-2'>
       <MDBCol>
         
-        <MDBCard   className='bg-image rounded hover-zoom hover-overlay'
-        onClick={()=> navigate('/Dogsfood')}>
           <MDBCardImage
-            src='https://www.marshallspetzone.com/img/cms/JAN%20UPDATE/jan%20update%202/1%20(14).jpg'
+            // src='https://www.marshallspetzone.com/img/cms/diwali-2022/diwali2021dogmenu.jpg'
+            src='https://www.petsy.online/cdn/shop/files/Puppy-essentials_646x169.png?v=1683265840'
+          
             alt='...'
             position='top'
-            
+            onClick={()=> navigate('/Dogsfood')}
           />
-          <MDBCardBody>
-            <MDBCardTitle>Dog foods</MDBCardTitle>
-            <MDBCardText>
-            Dog food is a specialized type of pet food specifically formulated to meet the nutritional needs of dogs.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-        
+         
+     
       </MDBCol>
-
-
-
-
-
-
       <MDBCol>
        
-        <MDBCard className='bg-image rounded hover-zoom hover-overlay'
-         onClick={()=>{
-             navigate('/catsfood')
-         }}
-        
-        >
           <MDBCardImage
-            src='https://www.marshallspetzone.com/img/cms/JAN%20UPDATE/jan%20update%202/1%20(13).jpg'
+            // src='https://www.marshallspetzone.com/img/cms/diwali-2022/diwali2021catmenu.jpg'
+            src='https://www.petsy.online/cdn/shop/files/kitten_646x169.png?v=1683265840'
             alt='...'
             position='top'
+            onClick={()=>{
+              navigate('/catsfood')
+          }}
           />
-          <MDBCardBody>
-            <MDBCardTitle>Cat foods</MDBCardTitle>
-            <MDBCardText>
-            Cat food is a specialized type of pet food designed to meet the unique nutritional needs of domestic cats. 
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-        
+          
+       
       </MDBCol>
-
-
-
-
-
-      <MDBCol>
-      <MDBCardTitle>Available Soon</MDBCardTitle>
-        <MDBCard  className='bg-image rounded hover-zoom hover-overlay'>
-        
-          <MDBCardImage 
-            src='https://images.pexels.com/photos/4266777/pexels-photo-4266777.jpeg?auto=compress&cs=tinysrgb&w=400' 
+      {/* <MDBCol>
+        <MDBCard  onClick={()=>{
+              navigate('/birdfoods')
+            }}>
+          <MDBCardImage
+            src='https://www.marshallspetzone.com/img/cms/BIRD_1.jpg'
             alt='...'
             position='top'
-            onClick={()=>{
-              navigate('/fishfoods')
-            }}
           />
-           <MDBCardImage
-            src='https://images.pexels.com/photos/322244/pexels-photo-322244.jpeg?auto=compress&cs=tinysrgb&w=400'
-            position='top'
-            onClick={()=>{
-              navigate('/birdfoods')
-            }}
-          />
-          <MDBCardBody>
          
-          <MDBCardTitle>"Exciting News for Bird and Fish Owners!</MDBCardTitle>
-            <MDBCardText>
-            Our team of experts has been working diligently to create premium food options that cater to the unique dietary needs of birds and fish, ensuring they thrive.
-            </MDBCardText>
-          </MDBCardBody>
         </MDBCard>
-      </MDBCol> 
-
-
-      
+      </MDBCol>
+      <MDBCol>
+        <MDBCard   onClick={()=>{
+              navigate('/fishfoods')
+            }}>
+          <MDBCardImage
+            // src='https://www.marshallspetzone.com/img/cms/diwali2021/diwali2021othersmenu.jpg'
+            src='https://cdn.petsworld.network/v1/s/images/8ED23991CA174A97F63C216EC5DD95C0/1920.webp'
+            alt='...'
+            position='top'
+            height='138'
+          />
+          
+        </MDBCard> 
+      </MDBCol> */}
     </MDBRow>
-    <br/>
-    <hr/>
 
-   
+
+<br/><br/>
+
+
 
     </div>
   )

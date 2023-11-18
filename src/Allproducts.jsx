@@ -6,8 +6,8 @@ import {
     MDBRow,
     MDBCol,
       MDBContainer,
+      MDBIcon
     
-      MDBBtn
   } from 'mdb-react-ui-kit';
 import { MyContext } from './Context';
 import Nav from './components/Nav';
@@ -58,13 +58,10 @@ const Allproducts = () => {
                       {item.name}
                  </h5>
                 <h5 className="text-dark mb-0">{item.price2}</h5>
+                
               </div>
             </MDBCardBody>
-            {/* <MDBBtn className='bg-danger ' onClick={()=>{
-                navigate(`/viewproduct/${item.id}`)
-            }}>
-                View product
-            </MDBBtn> */}
+            
 
           </MDBCard>
           </MDBCol>

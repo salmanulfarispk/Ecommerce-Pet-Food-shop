@@ -5,20 +5,25 @@ import {
     MDBRow,
     MDBCol
   } from 'mdb-react-ui-kit';
+
   
 
 const Ads = () => {
+  
   return (
    <>
-
-   <h3 className='mt-5 ms-2'><strong>High Rated Brands/Stores</strong></h3>
-    <MDBRow className='row-cols-1 row-cols-md-5 g-2 mt-4'>
+  <br/>
+<h2 className='mt-5 ' style={{ textAlign: 'center',color:'black' }}>
+        <strong>Exclusive Brands</strong>
+      </h2>
+    <MDBRow className='row-cols-1 row-cols-md-4 g-4 mt-3 ms-3 me-3'>
       <MDBCol>
       <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
           <MDBCardImage
-            src='https://img.freepik.com/premium-psd/creative-pet-store-pet-food-store-social-media-template_19856-277.jpg?size=626&ext=jpg&ga=GA1.2.1874802293.1695474404&semt=ais'
+            src='https://cdn.petsworld.network/v1/s/images/50267F3EED76467FE20A3A5B9846AE98/1920.webp'
             alt='...'
             position='top'
+            height='550px'
           />
        
         </MDBCard>
@@ -26,9 +31,11 @@ const Ads = () => {
       <MDBCol>
       <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
           <MDBCardImage
-            src='https://img.freepik.com/premium-psd/pet-store-social-media-promotion-instagram-banner-post-design-template_205739-337.jpg?size=626&ext=jpg&ga=GA1.2.1874802293.1695474404&semt=ais'
+            src='https://cdn.petsworld.network/v1/s/images/96334863977D7FEAEB5FA0D1766299E5/1920.webp'
             alt='...'
             position='top'
+            height='550px'
+
           />
         
         </MDBCard>
@@ -36,9 +43,11 @@ const Ads = () => {
       <MDBCol>
       <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
           <MDBCardImage
-            src='https://img.freepik.com/premium-psd/pet-care-service-promotion-social-media-instagram-post-banner-template_159024-196.jpg?size=626&ext=jpg&ga=GA1.1.1874802293.1695474404&semt=sph'
+            src='https://cdn.petsworld.network/v1/s/images/50267F3EED76467FE20A3A5B9846AE98/1920.webp'
             alt='...'
             position='top'
+            height='550px'
+
           />
          
         </MDBCard>
@@ -46,85 +55,18 @@ const Ads = () => {
        <MDBCol>
        <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
           <MDBCardImage
-            src='https://img.freepik.com/free-psd/squared-flyer-pet-adoption-with-dog_23-2148559316.jpg?size=626&ext=jpg&ga=GA1.1.1874802293.1695474404&semt=sph'
+            src='https://www.all4pets.in/wp-content/uploads/2021/07/001.png'
             alt='...'
             position='top'
+            height='550px'
+
           />
         
         </MDBCard>
       </MDBCol>
-   
-      <MDBCol>
-      <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
-          <MDBCardImage
-            src='https://img.freepik.com/free-psd/dog-food-flyer-template_23-2148516355.jpg?size=626&ext=jpg&ga=GA1.1.1874802293.1695474404&semt=sph'
-            alt='...'
-            position='top'
-          /> 
-        </MDBCard>
-      </MDBCol>
-
-
-
-
-
-
-      <MDBCol>
-      <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
-          <MDBCardImage
-            src='https://cdn.shopify.com/s/files/1/1199/8502/files/Cat_Vet_Life_Wet.webp?v=1690299260'
-            alt='...'
-            position='top'
-          /> 
-        </MDBCard>
-      </MDBCol>
-
-      <MDBCol>
-      <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
-          <MDBCardImage
-            src='https://cdn.shopify.com/s/files/1/1199/8502/files/Cat_Sheba_Wet.webp?v=1690299260'
-            alt='...'
-            position='top'
-          /> 
-        </MDBCard>
-      </MDBCol>
-
-      <MDBCol>
-      <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
-          <MDBCardImage
-            src='https://cdn.shopify.com/s/files/1/1199/8502/files/Cat_Royal_Canin_Dry.webp?v=1690299260'
-            alt='...'
-            position='top'
-          /> 
-        </MDBCard>
-      </MDBCol>
-
-      <MDBCol>
-      <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
-          <MDBCardImage
-            src='https://cdn.shopify.com/s/files/1/1199/8502/files/Cat_MAtisse_Dry.webp?v=1690299260'
-            position='top'
-          /> 
-        </MDBCard>
-      </MDBCol>
-
-      <MDBCol>
-      <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
-          <MDBCardImage
-            src='https://cdn.shopify.com/s/files/1/1199/8502/files/Cat_Whiskas_Dry.webp?v=1690299260'
-            alt='...'
-            position='top'
-          /> 
-        </MDBCard>
-      </MDBCol>
-
-
-  
-
     </MDBRow>
     <br/>
-    <hr/>
-
+    
 
 </>
 

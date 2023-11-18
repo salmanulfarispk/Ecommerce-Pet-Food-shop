@@ -1,11 +1,13 @@
 import React from 'react'
+
+
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import {
-  MDBCard,
-  MDBCardImage,
 
-  MDBRow,
-  MDBCol
+  MDBCarousel, MDBCarouselItem 
+  
+
+
   } from 'mdb-react-ui-kit';
  
 
@@ -15,85 +17,36 @@ const Pictures = () => {
   return (
     <div>
         
-         <MDBRow className='row-cols-1 row-cols-md-3 g-4 mt-1'>
-      <MDBCol>
-        <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
-          <MDBCardImage 
-            src='https://cdn.media.amplience.net/i/petsathome/hp-promo-ownbrand-dogfood-aug23/.webp?w=720&'
-            alt='...'
-            position='top'
-          />
         
-        </MDBCard>
-      </MDBCol>
-      <MDBCol>
-      <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
-          <MDBCardImage
-            src='https://cdn.media.amplience.net/i/petsathome/hp-promo-new-in-tinkerbell_1/.webp?w=640&'
-            alt='...'
-            position='top'
-          />
-         
-        </MDBCard>
-      </MDBCol>
-      <MDBCol>
-      <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
-          <MDBCardImage
-            src='https://cdn.media.amplience.net/i/petsathome/so-promo-phase-save-30-cat-accessories/.webp?w=720&'
-            alt='...'
-            position='top'
-          />
-          
-        </MDBCard>
-      </MDBCol>
-      <MDBCol>
-      <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
-          <MDBCardImage
-            src='https://cdn.media.amplience.net/i/petsathome/hp-promo-vip-refresh_1/.webp?w=640&'
-            alt='...'
-            position='top'
-          />
-          
-        </MDBCard>
-      </MDBCol>
-     
-      <MDBCol>
-      <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
-          <MDBCardImage
-            src=' https://cdn.media.amplience.net/i/petsathome/hp-promo-new-in-harry-potter-fashion-p7/.webp?w=720&'
-            alt='...'
-            position='top'
-          />
-          
-        </MDBCard>
-      </MDBCol>
 
-      <MDBCol>
-      <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
-          <MDBCardImage
-            src='https://cdn.media.amplience.net/i/petsathome/hp-promo-fleaandworm-july23/.webp?w=880&'
-            alt='...'
-            position='top'
-          />
-          
-        </MDBCard>
-      </MDBCol>
+    <MDBCarousel showControls showIndicators dark fade>
+      <MDBCarouselItem
+        className='w-100 d-block'
+        itemId={1}
+        src='https://www.marshallspetzone.com/img/magicslideshow/20072023DROOLS.jpg'
+        alt='...'
+      >
+        
+      </MDBCarouselItem>
+      <MDBCarouselItem
+        className='w-100 d-block'
+        itemId={2}
+        src='https://www.marshallspetzone.com/img/magicslideshow/SUPPLEMENTS%20SLIDER%201920800.jpg'
+        alt='...'
+      >
+       
+      </MDBCarouselItem>
+      
 
-    </MDBRow>
-
-
-
-
-
-   
-    <br/>
-
-
-
-
-
-
-
+      <MDBCarouselItem
+        className='w-100 d-block'
+        itemId={3}
+        src='https://www.marshallspetzone.com/img/magicslideshow/eSPT%20Marshall%201920x800%20Alaya.png'
+        alt='...'
+      >
+        
+      </MDBCarouselItem>
+    </MDBCarousel>
 
     </div>
   )

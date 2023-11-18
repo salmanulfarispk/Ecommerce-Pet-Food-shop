@@ -52,11 +52,12 @@ const Cart = () => {
               ))}
    
   return (
-    <div>
+    
       
+     <>
       <div><Nav/></div>
         
-      <MDBContainer fluid>
+     <MDBContainer fluid>
      
       <MDBRow className="justify-content-center mb-0">
       
@@ -146,15 +147,17 @@ const Cart = () => {
         </MDBCol>
       
       </MDBRow>
-      </MDBContainer>
+      </MDBContainer> 
+
+ 
 
 
 
 
 
 
-      
-    </div>
+</>
+    
   )
 }
 

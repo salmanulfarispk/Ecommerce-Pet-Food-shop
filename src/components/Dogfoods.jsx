@@ -7,8 +7,9 @@ import {
     MDBRow,
     MDBCol,
       MDBContainer,
+      MDBIcon
     
-      MDBBtn
+    
   } from 'mdb-react-ui-kit';
 import { MyContext } from '../Context';
 import {  useNavigate } from 'react-router-dom';
@@ -33,14 +34,6 @@ const Dogfoods = () => {
           <MDBCard className='bg-image rounded hover-zoom hover-overlay'
           >
          
-            {/* <div className="d-flex justify-content-between p-3">
-              <p className="lead mb-0">Today's Combo Offer</p>
-              <div
-                className="bg-info rounded-circle d-flex align-items-center justify-content-center shadow-1-strong"
-                style={{ width: "35px", height: "35px" }}>
-                <p className="text-white mb-0 small">x4</p>
-              </div>
-            </div> */}
             
             <MDBCardImage
               src={item.src}
@@ -65,12 +58,26 @@ const Dogfoods = () => {
                  </h5>
                 <h5 className="text-dark mb-0">{item.price2}</h5>
               </div>
+
+             
+              <div class="d-flex justify-content-between mb-2">
+                <p class="text-muted mb-0">
+                  Available: <span class="fw-bold">6</span>
+                </p>
+                <div class="ms-auto text-warning">
+                  <MDBIcon fas icon="star" />
+                  <MDBIcon fas icon="star" />
+                  <MDBIcon fas icon="star" />
+                  <MDBIcon fas icon="star" />
+                  <MDBIcon fas icon="star" />
+                </div>
+              </div>
+
+
+
+
             </MDBCardBody>
-            <MDBBtn className='bg-primary'onClick={()=>{
-                navigate(`/viewproduct/${item.id}`)
-           }}>
-                View Details
-            </MDBBtn>
+            
 
           </MDBCard>
           </MDBCol>
