@@ -4,7 +4,7 @@ import {
  
     MDBCardImage,
     MDBRow,
-    MDBCol
+    MDBCol,MDBCard
 } from 'mdb-react-ui-kit';
 
 
@@ -15,12 +15,12 @@ function BFcards() {
   return (
     <div>
 
-<h2 className='mt-5 ' style={{ textAlign: 'center',color:'black' }}>
+<h2 className='mt-2 ' style={{ textAlign: 'center',color:'black' }}>
         <strong>Available soon</strong>
       </h2>
-<MDBRow className='row-cols-1 row-cols-md-2 g-2 mt-4 ms-3 me-3'>
+<MDBRow className='row-cols-1 row-cols-md-2 g-4 mt-4 ms-4 me-4'>
       <MDBCol>
-        
+      <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
           <MDBCardImage
             
             src='https://www.marshallspetzone.com/img/cms/BIRD_1.jpg'
@@ -31,12 +31,12 @@ function BFcards() {
                 navigate('/birdfoods')
               }}
           />
-         
+         </MDBCard>
      
       </MDBCol>
       <MDBCol>
-       
-          <MDBCardImage
+      <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
+          <MDBCardImage 
            
             src='https://cdn.petsworld.network/v1/s/images/8ED23991CA174A97F63C216EC5DD95C0/1920.webp'
             alt='...'
@@ -44,10 +44,11 @@ function BFcards() {
             onClick={()=>{
                 navigate('/fishfoods')
               }}
-              height='139'
+              height='130'
+              
           />
           
-       
+       </MDBCard>
       </MDBCol>
 
       </MDBRow>

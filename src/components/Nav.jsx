@@ -44,7 +44,7 @@ const Nav = () => {
 
   
      
-     <MDBNavbar   expand='lg'   style={{ height: '120px'}}>
+     <MDBNavbar   expand='lg'   style={{ height: '90px'}}>
 
       <MDBContainer fluid>
        
@@ -91,12 +91,12 @@ const Nav = () => {
               <MDBNavbarLink onClick={()=>navigate('/allproduct')}>All Products</MDBNavbarLink>
             </MDBNavbarItem>
 
-          
-          <MDBInputGroup className='mb-1  w-50' noBorder >
-        <input className='form-control ms-3' type='search' placeholder='Search....' onChange={(e)=>{
+{/*           
+          <MDBInputGroup className='mb-1  w-25 mx-auto ' noBorder >
+        <input className='form-control ms-3 ' type='search' placeholder='Search....' onChange={(e)=>{
                setsearchTerm(e.target.value)
-        }}/>
-      </MDBInputGroup>
+        }}  />
+      </MDBInputGroup> */}
 
 
 
@@ -109,31 +109,36 @@ const Nav = () => {
 <img className='me-5' src='https://img.icons8.com/?size=30&id=TdZUZUq3XNh6&format=gif'  width={'30px'} height={'30px'}   onClick={()=>{
               navigate('/cart')}}/>
             {/* <MDBBtn className='me-5 pe-5' color='info' onClick={userlogout}>Logout</MDBBtn>  */}
-            <i class="fas fa-sign-out-alt fa-lg" style={{color:"#04164e"}} onClick={userlogout}></i>
+            <i className="fas fa-sign-out-alt fa-lg me-5" style={{color:"#D10000"}} onClick={userlogout}></i>
             
            
                </>):   (           
                
                <>
                {/* <MDBBtn className='me-5 ' onClick={()=>navigate('/login')}>SignIn</MDBBtn>    */}
-               <i className="fas fa-sign-in-alt fa-lg me-3" style={{color: "#000000"}}  onClick={()=>navigate('/login')}></i>
+               <i className="fas fa-sign-in-alt fa-lg me-5" style={{color: "#167D7F"}}  onClick={()=>navigate('/login')}></i>
                </>
                )}
            
 
 
-
-            <MDBBtn className='bg-light me-5 text-dark' style={{boxShadow:'none'}}>
-            <img style={{backgroundColor:'white'}} src='https://img.icons8.com/?size=80&id=rrtYnzKMTlUr&format=png ' width={'40px'} height={'40px'} 
-          
+            <span>
+            {/* <MDBBtn className='bg-light me-5 text-dark' style={{boxShadow:'none'}}> */}
+            <img className='me-5' style={{backgroundColor:'white'}} src='https://img.icons8.com/?size=80&id=rrtYnzKMTlUr&format=png ' width={'40px'} height={'40px'} 
+                
           
            />  
             {/* <i class="fas fa-user fa-lg" style={{color: "#123904"}}></i> */}
             <strong>{username}</strong>
-           </MDBBtn>
+           {/* </MDBBtn> */}</span>
               
             
-          
+           
+          <MDBInputGroup className='mb-1  w-50 me-5 ' noBorder >
+        <input className='form-control ms-3 ' type='search' placeholder='Search....' onChange={(e)=>{
+               setsearchTerm(e.target.value)
+        }}  />
+      </MDBInputGroup>
           
         </MDBCollapse>
       </MDBContainer>

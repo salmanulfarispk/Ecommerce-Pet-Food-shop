@@ -1,6 +1,7 @@
 
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
+
+import './Login.css'
 import Home from './components/Home';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import { MyContext } from './Context';

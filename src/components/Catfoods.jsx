@@ -36,7 +36,7 @@ const Catfoods = () => {
        
       <div><Nav/></div> 
 
-         <MDBContainer fluid className="my-5">
+         <MDBContainer fluid className="my-1">
       <MDBRow>
         { Catcategory.map((item)=>(
 

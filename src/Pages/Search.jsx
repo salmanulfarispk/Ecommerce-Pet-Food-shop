@@ -24,7 +24,7 @@ const Search = ({searchTerm}) => {
     <div>
       { searchTerm? (                          //true statement
 
-<MDBContainer fluid className="my-5">
+<MDBContainer fluid className="my-1">
       <MDBRow className="justify-content-center">
 
         { products  &&  products.filter((item)=>{

@@ -26,7 +26,7 @@ const Dogfoods = () => {
    
     <div><Nav/></div> 
 
-    <MDBContainer fluid className="my-5">
+    <MDBContainer fluid className="my-1">
       <MDBRow>
             { Dogcategory.map((item)=>(
               

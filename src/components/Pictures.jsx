@@ -19,7 +19,7 @@ const Pictures = () => {
         
         
 
-    <MDBCarousel showControls showIndicators dark fade>
+    <MDBCarousel showControls showIndicators dark fade className='my-1'>
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={1}

@@ -55,9 +55,13 @@ const Register = () => {
 
 
   return (
-
-    <div className='' style={{background:"#76a389"}}>
-       <Nav/>
+   <> 
+   
+   <Nav/>
+   
+  
+    <div style={{backgroundImage:'url(https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)'}}>
+      
         
 <MDBContainer>
 
@@ -105,6 +109,7 @@ const Register = () => {
 
 
     </div>
+    </>
   )
 }
 

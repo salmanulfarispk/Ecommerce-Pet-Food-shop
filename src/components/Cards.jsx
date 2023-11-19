@@ -1,11 +1,9 @@
 import React from 'react'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import {
-    MDBCard,
+    
     MDBCardImage,
-    MDBCardBody,
-    MDBCardTitle,
-    MDBCardText,
+   
     MDBRow,
     MDBCol,
   
@@ -59,32 +57,7 @@ const Cards = () => {
           
        
       </MDBCol>
-      {/* <MDBCol>
-        <MDBCard  onClick={()=>{
-              navigate('/birdfoods')
-            }}>
-          <MDBCardImage
-            src='https://www.marshallspetzone.com/img/cms/BIRD_1.jpg'
-            alt='...'
-            position='top'
-          />
-         
-        </MDBCard>
-      </MDBCol>
-      <MDBCol>
-        <MDBCard   onClick={()=>{
-              navigate('/fishfoods')
-            }}>
-          <MDBCardImage
-            // src='https://www.marshallspetzone.com/img/cms/diwali2021/diwali2021othersmenu.jpg'
-            src='https://cdn.petsworld.network/v1/s/images/8ED23991CA174A97F63C216EC5DD95C0/1920.webp'
-            alt='...'
-            position='top'
-            height='138'
-          />
-          
-        </MDBCard> 
-      </MDBCol> */}
+    
     </MDBRow>
 
 
