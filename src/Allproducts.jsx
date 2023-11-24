@@ -28,10 +28,10 @@ const Allproducts = () => {
    
    
 
-<MDBContainer fluid className="my-5">
+<MDBContainer fluid className="g-5">
       <MDBRow>
             { products.map((item)=>(
-        <MDBCol md="12" lg="4" className="mb-4 mb-lg-0">
+        <MDBCol  md="12" lg="3" className="mb-4 mb-lg-0 g-5 ">
           <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
          
            

@@ -43,7 +43,7 @@ const Search = ({searchTerm}) => {
 
         }).map((item)=>(
             
-        <MDBCol md="8" lg="6" xl="4" key={item.id}>
+        <MDBCol md="12" lg="3" className='g-5' key={item.id}>
           <MDBCard style={{ borderRadius: "15px" }}>
             <MDBRipple
               rippleColor="light"

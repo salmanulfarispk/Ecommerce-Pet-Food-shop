@@ -29,7 +29,7 @@ const Cards = () => {
   <br/>
    
 
-<MDBRow className='row-cols-1 row-cols-md-2 g-2 mt-4 ms-2 me-2'>
+<MDBRow className='row-cols-1 row-cols-md-2  mt-3 ms-2 me-2'>
       <MDBCol>
         
           <MDBCardImage

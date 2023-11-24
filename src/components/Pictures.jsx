@@ -19,7 +19,7 @@ const Pictures = () => {
         
         
 
-    <MDBCarousel showControls showIndicators dark fade className='my-1'>
+    <MDBCarousel showControls showIndicators dark fade className='my-1 '>
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={1}
@@ -41,6 +41,15 @@ const Pictures = () => {
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={3}
+        src='https://www.marshallspetzone.com/img/magicslideshow/raincoats%20png.png'
+        alt='...'
+      >
+        
+      </MDBCarouselItem>
+      
+      <MDBCarouselItem
+        className='w-100 d-block'
+        itemId={4}
         src='https://www.marshallspetzone.com/img/magicslideshow/eSPT%20Marshall%201920x800%20Alaya.png'
         alt='...'
       >

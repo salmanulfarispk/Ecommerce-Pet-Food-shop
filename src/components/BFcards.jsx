@@ -18,7 +18,7 @@ function BFcards() {
 <h2 className='mt-2 ' style={{ textAlign: 'center',color:'black' }}>
         <strong>Available soon</strong>
       </h2>
-<MDBRow className='row-cols-1 row-cols-md-2 g-4 mt-4 ms-4 me-4'>
+<MDBRow  className='row-cols-1 row-cols-md-2 g-4 mt-4 ms-4 me-4'>
       <MDBCol>
       <MDBCard className='bg-image rounded hover-zoom hover-overlay'>
           <MDBCardImage

@@ -36,12 +36,12 @@ const Catfoods = () => {
        
       <div><Nav/></div> 
 
-         <MDBContainer fluid className="my-1">
+         <MDBContainer fluid>
       <MDBRow>
         { Catcategory.map((item)=>(
 
           
-        <MDBCol md="12" lg="4" className="mb-4 mb-lg-0">
+        <MDBCol md="12" lg="3" className="mb-4 mb-lg-0 g-5">
              
              
           <MDBCard className='bg-image rounded hover-zoom hover-overlay'>

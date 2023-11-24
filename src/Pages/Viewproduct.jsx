@@ -49,9 +49,9 @@ const Viewproduct = () => {
       <MDBRow className="justify-content-center mb-0">
       { maincard.map((item)=>(
 
-        <MDBCol md="12" xl="10">
+        <MDBCol md="12" xl="11">
        
-          <MDBCard className="shadow-0 border rounded-3 mt-5 mb-3">
+          <MDBCard className="shadow-0 border rounded-3 mt-4 mb-3">
             <MDBCardBody >
               <MDBRow>
 

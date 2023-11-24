@@ -72,9 +72,9 @@ const Fishfoods = () => {
 
 <MDBRow className='my-2 ms-2 me-2'>
 {fiteredproducts.map((item)=>
-        <MDBCol md="12" lg="4" className="mb-4">
+        <MDBCol md="12" lg="3" className="mb-4 g-4">
           <MDBRipple
-            rippleColor="dark"
+            rippleColor="light"
             rippleTag="div"
             className="bg-image rounded hover-zoom shadow-1-strong"
           >

@@ -36,12 +36,12 @@ const Birdfoods = () => {
 
       <MDBRow>
       {birdprdcts.map((item)=>(
-        <MDBCol md="12" lg="4" className="mb-4">
-          <MDBRipple
-            rippleColor="dark"
+        <MDBCol md="12" lg="3" className="mb-4 g-4">
+         <MDBRipple
+            rippleColor="light"
             rippleTag="div"
             className="bg-image rounded hover-zoom shadow-1-strong"
-          >
+          > 
             <img
               src={item.src}
               fluid
