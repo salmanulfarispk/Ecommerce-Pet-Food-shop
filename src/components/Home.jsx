@@ -14,7 +14,7 @@ import Group from './Group';
 
 const Home = () => {
   return (
-    <>
+    <div>
   
  <Nav/>
  <Pictures/>
@@ -25,7 +25,7 @@ const Home = () => {
 
  <Footer/>
  
-    </>
+    </div>
   )
 }
 

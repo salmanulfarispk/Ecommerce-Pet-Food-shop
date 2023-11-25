@@ -2,7 +2,7 @@ export const ProductDatas = [
   // Dog Food Products
   {
     id: 1,
-    name: "ROYAL CANIN SHIH TZU ",
+    name: "ROYAL CANIN SHIH",
     type: "Dog",
     src: "https://pawsindia.com/cdn/shop/products/1_ee00a414-7e44-4ab6-8129-aadda2f19498_360x.png?v=1685797240",
     description: "A premium quality dog food for active and healthy dogs.",
@@ -73,7 +73,7 @@ export const ProductDatas = [
   },
   {
     id: 8,
-    name: "ARDEN GRANCE ADULT",
+    name: "ARDEN GRANCE Dm",
     type: "Dog",
     src: "https://pawsindia.com/cdn/shop/products/ArdenGrangeLargeBreedAdultDryDogFood-FreshChicken_Rice_d34ee35e-a570-441f-843a-c9bc26680d7f_360x.webp?v=1678865205",
     description: "Essential grooming tools for your furry friend.",
@@ -83,7 +83,7 @@ export const ProductDatas = [
   },
   {
     id: 9,
-    name: "ROYAL MEDIUM ADULT",
+    name: "ROYAL MEDIUM DM",
     type: "Dog",
     src: "https://pawsindia.com/cdn/shop/products/MEDIUMAdult-9_360x.png?v=1686824763",
     description: "Stylish collar and leash set for your dog's daily walks.",

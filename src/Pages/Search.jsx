@@ -95,9 +95,7 @@ const Search = ({searchTerm}) => {
             <hr class="my-0" />
             <MDBCardBody className="pb-0">
               <div className="d-flex justify-content-between align-items-center pb-2 mb-4">
-                 <a href="#!" className="text-light fw-bold">
-                  Cancel
-                 </a> 
+                 
                 <MDBBtn color="primary" onClick={()=>{
                      navigate(`/viewproduct/${item.id}`)
                 }}>Buy now</MDBBtn>

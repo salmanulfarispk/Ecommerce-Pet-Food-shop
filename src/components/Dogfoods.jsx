@@ -7,7 +7,8 @@ import {
     MDBRow,
     MDBCol,
       MDBContainer,
-      MDBIcon
+      MDBIcon,
+      MDBBtn
     
     
   } from 'mdb-react-ui-kit';
@@ -74,7 +75,9 @@ const Dogfoods = () => {
               </div>
 
 
-
+               <MDBBtn className='bg-primary'onClick={()=>{
+                navigate(`/viewproduct/${item.id}`)
+              }}>Buy now</MDBBtn>
 
             </MDBCardBody>
             

@@ -80,6 +80,9 @@ const Catfoods = () => {
                   <MDBIcon fas icon="star" />
                 </div>
               </div>
+              <MDBBtn className='bg-primary'onClick={()=>{
+                navigate(`/viewproduct/${item.id}`)
+              }}>Buy now</MDBBtn>
             </MDBCardBody>
             
           </MDBCard>

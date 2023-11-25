@@ -20,16 +20,16 @@ const Cards = () => {
   return (
     <div>
          
-     
+{/*      
           <h2 className='mt-5 ms-3' style={{ textAlign: 'center', color:'black' }}>
         <strong>Recommended products</strong>
-      </h2>
+      </h2> */}
 
     
-  <br/>
+  
    
 
-<MDBRow className='row-cols-1 row-cols-md-2  mt-3 ms-2 me-2'>
+<MDBRow className='row-cols-1 row-cols-md-2  mt-5 '>
       <MDBCol>
         
           <MDBCardImage

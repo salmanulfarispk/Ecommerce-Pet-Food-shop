@@ -121,6 +121,8 @@ const Viewproduct = () => {
                     </MDBBtn>
                     
                   </div>
+
+                  <h5 className='mt-5' style={{color:'blue'}} >→Back to shop</h5>
                 </MDBCol>
              
               </MDBRow>
